@@ -1,0 +1,39 @@
+{
+  "name": "odin-wheres-waldo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nealchampagne/odin-wheres-waldo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nealchampagne/odin-wheres-waldo/issues"
+  },
+  "homepage": "https://github.com/nealchampagne/odin-wheres-waldo#readme",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "nodemon": "^3.1.11",
+    "prisma": "^7.3.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.3.0",
+    "@prisma/client": "^7.3.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "pg": "^8.18.0",
+    "uuid": "^13.0.0"
+  }
+}
